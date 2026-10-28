@@ -64,6 +64,9 @@ ul {
 }
 
 li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px;
   border-bottom: 1px solid #ddd;
   text-align: left;
@@ -71,6 +74,16 @@ li {
 
 li:last-child {
   border-bottom: none;
+}
+
+.delete-button {
+  margin-left: auto;
+  background-color: #e57373;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
 }
 
 .error {
